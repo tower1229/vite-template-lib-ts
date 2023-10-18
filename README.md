@@ -8,7 +8,7 @@ This template provides a minimal setup to get TypeScript working in Vite with HM
 yarn build
 ```
 
-- entery file: `src/index.ts`
+- entery file: `src/main.ts`
 - will be compiled to `dist/`
 
 ## Test
