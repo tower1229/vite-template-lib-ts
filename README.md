@@ -2,6 +2,16 @@
 
 This template provides a minimal setup to get TypeScript working in [Vite](https://cn.vitejs.dev/guide/) with HMR and some ESLint rules.
 
+## Get Start
+
+```bash
+npx degit tower1229/vite-template-lib-ts my-project
+
+cd my-project
+npm install
+npm run dev
+```
+
 ## Directory Structure
 
 ```bash
@@ -12,29 +22,13 @@ This template provides a minimal setup to get TypeScript working in [Vite](https
     |-- test    // test scripts with vitest
 ```
 
-## Usage
+## npm scripts
 
-### Dev
+- `dev` Start a demo server
+- `build` Build the library
+- `test` Run test with vitest
+- `lint` Lint the project
 
-```bash
-// run a demo page
-yarn dev
-```
+## License
 
-- entery file: `demo/main.tsx`
-
-### Build
-
-```bash
-// build lib
-yarn build
-```
-
-- entery file: `src/main.ts`
-
-### Test
-
-```bash
-// run test
-yarn test
-```
+This project is open source and available under the [MIT License](LICENSE).

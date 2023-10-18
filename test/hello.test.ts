@@ -1,6 +1,4 @@
-import { assert, expect, test } from "vitest";
-
-// Edit an assertion and save to see HMR in action
+import { expect, test } from "vitest";
 
 test("Math.sqrt()", () => {
   expect(Math.sqrt(4)).toBe(2);
