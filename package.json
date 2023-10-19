@@ -3,21 +3,20 @@
   "private": false,
   "version": "0.0.1",
   "scripts": {
-    "dev": "vite -c demo.config.js",
+    "dev": "vite -c demo.config.ts",
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "test": "vitest"
   },
-  "type": "module",
   "files": [
     "dist"
   ],
-  "main": "./dist/vite-lib.umd.cjs",
-  "module": "./dist/vite-lib.js",
+  "main": "./dist/vite-lib.umd.js",
+  "module": "./dist/vite-lib.mjs",
   "exports": {
     ".": {
-      "import": "./dist/vite-lib.js",
-      "require": "./dist/vite-lib.umd.cjs"
+      "import": "./dist/vite-lib.mjs",
+      "require": "./dist/vite-lib.umd.js"
     }
   },
   "dependencies": {
