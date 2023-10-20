@@ -4,13 +4,14 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "vite -c demo.config.ts",
-    "build": "tsc && vite build",
+    "build": "vite build && tsc",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "test": "vitest"
   },
   "files": [
     "dist"
   ],
+  "types": "./dist/main.d.ts",
   "main": "./dist/vite-lib.umd.js",
   "module": "./dist/vite-lib.mjs",
   "exports": {
